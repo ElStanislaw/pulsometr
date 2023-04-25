@@ -138,8 +138,12 @@
                 margin-left: 0px;
             }
         }
+        ul {
+            padding-left: 5px; 
+        }
         li {
             position: relative;
+            list-style-type: none;
             font-weight: 300;
             font-size: 14px;
             line-height: 21px;

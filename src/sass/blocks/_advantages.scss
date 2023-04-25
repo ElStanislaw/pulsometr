@@ -21,7 +21,6 @@ padding: 71px 0 64px 0;
         color: #0D0D0D;
     }
     &__text {
-        width: 269px;
         margin-top: 20px;
         font-weight: 300;
         font-size: 14px;
@@ -34,6 +33,14 @@ padding: 71px 0 64px 0;
     }
     &__shoe {
         margin-top: 65px;
+    }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
 .love {
     font-weight: 300;
